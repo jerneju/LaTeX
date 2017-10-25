@@ -1,0 +1,97 @@
+%\documentclass[11pt]{article}
+\documentclass[a4paper]{article}
+
+%\setlength{\textwidth}{210mm}\setlength{\textheight}{297mm}
+
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1.25cm]{geometry}
+\usepackage{amsmath}
+
+\usepackage[slovene]{babel}
+\usepackage{amssymb}
+\usepackage{latexsym}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{arydshln}
+\usepackage{amscd}
+\usepackage{times}
+\usepackage{graphics}
+\usepackage{graphicx}
+%\usepackage{subfigure}
+\usepackage{comment}
+\usepackage{float}
+% \usepackage{concmath}
+\usepackage[T1]{fontenc}
+\usepackage{cite}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage[version=3]{mhchem}
+\usepackage{wrapfig}
+\usepackage{mathtools}
+\usepackage{color}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{makeidx}
+\usepackage{tikz}
+\usepackage[nodayofweek,level]{datetime}
+\usepackage{concrete}
+
+\renewcommand{\vec}[1]{\mathbf{#1}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5ex}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{notation}[theorem]{Notation}
+
+\newtheorem{example}[theorem]{Example}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{terminology}[theorem]{Terminology}
+
+\begin{comment}
+\newtheorem{comment}[theorem]{Comment}
+\end{comment}
+
+\setcounter{secnumdepth}{2}
+
+\begin{document}
+
+\title{Title}
+
+\author{jerneju@gmail.com}
+
+\date{\today}
+
+
+
+\maketitle
+
+\section{What to do?}
+	\begin{equation}
+		J(\theta) = \frac{1}{m}\sum_{i=1}^m \big[-y^{i} \log (h_{\theta} (x^{(i)}))
+		- (1 - y^{(i)}) \log(1 - h_{\theta}(x^{(i)}))\big]
+		+ \frac{\lambda}{2 m} \sum_{j=1}^n \theta_j^2
+	\end{equation}
+	\begin{equation}
+		\frac{\partial J(\theta)}{\partial \theta_0} = \frac{1}{m} \sum_{i=1}^m
+		\big(h_{\theta}(x^{(i)}) - y^{i}\big) x_j^{(i)}
+	\end{equation}
+	\begin{equation}
+		\frac{\partial J(\theta)}{\partial \theta_j} = \bigg(\frac{1}{m} \sum_{i=1}^m
+		\big(h_{\theta}(x^{(i)}) - y^{i}\big) x_j^{(i)}\bigg) + \frac{\lambda}{m} \theta_j
+	\end{equation}
+	\begin{equation}
+		J(\theta) = \frac{1}{m}\sum_{i=1}^m \sum_{k=1}^K \bigg[-y_k^{(i)} 
+		\log ((h_{\theta}(x^{(i)}))_k) - (1 - y_k^{(i)}) 
+		\log (1 - (h_{\theta}(x^{(i)}))_k)\bigg]
+	\end{equation}
+	\begin{equation}
+		\frac{\lambda}{2 m} \bigg[\sum_{j=1}^{25} \sum_{k=1}^{400}\bigg]
+	\end{equation}
+
+
+
+\end{document}

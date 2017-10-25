@@ -1,0 +1,89 @@
+%\documentclass[11pt]{article}
+\documentclass[a4paper]{article}
+
+%\setlength{\textwidth}{210mm}\setlength{\textheight}{297mm}
+
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1.25cm]{geometry}
+\usepackage{amsmath}
+
+\usepackage[slovene]{babel}
+\usepackage{amssymb}
+\usepackage{latexsym}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{arydshln}
+\usepackage{amscd}
+\usepackage{times}
+\usepackage{graphics}
+\usepackage{graphicx}
+%\usepackage{subfigure}
+\usepackage{comment}
+\usepackage{float}
+% \usepackage{concmath}
+\usepackage[T1]{fontenc}
+\usepackage{cite}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage[version=3]{mhchem}
+\usepackage{wrapfig}
+\usepackage{mathtools}
+\usepackage{color}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{makeidx}
+\usepackage{tikz}
+\usepackage[nodayofweek,level]{datetime}
+\usepackage{concrete}
+\usepackage{listings}
+
+\renewcommand{\vec}[1]{\mathbf{#1}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5ex}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{notation}[theorem]{Notation}
+
+\newtheorem{example}[theorem]{Example}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{terminology}[theorem]{Terminology}
+
+\begin{comment}
+\newtheorem{comment}[theorem]{Comment}
+\end{comment}
+
+\setcounter{secnumdepth}{2}
+
+\begin{document}
+
+\title{Python}
+
+\author{jerneju@gmail.com}
+
+\date{\today}
+
+
+
+\maketitle
+
+\lstset{language=Python,
+	basicstyle=\ttfamily,
+	keywordstyle=\color{blue}\ttfamily,
+	stringstyle=\color{red}\ttfamily,
+	commentstyle=\color{green}\ttfamily,
+	morecomment=[l][\color{magenta}]{\#}
+}
+
+\section{What to do?}
+	\begin{lstlisting}
+		def Hello:
+		    print("Hello world!")
+	\end{lstlisting}
+
+
+
+\end{document}
